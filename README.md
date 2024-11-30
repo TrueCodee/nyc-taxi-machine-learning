@@ -73,9 +73,9 @@ Clone this repository:
 Copy code
 git clone https://github.com/TrueCodee/NYC-Taxi-Data-Analysis.git
 ```
-Upload the NYC-Taxi-Data-Analysis.ipynb notebook to Databricks or open it locally in Jupyter Notebook.
-Download the dataset from Kaggle and place it in the working directory.
-Run all code cells in sequence to reproduce the analysis.
+- Upload the NYC-Taxi-Data-Analysis.ipynb notebook to Databricks or open it locally in Jupyter Notebook.
+- Download the dataset from Kaggle and place it in the working directory.
+- Run all code cells in sequence to reproduce the analysis.
 
 ## Findings Summary
 - `Average Fare by Hour`:
@@ -83,9 +83,9 @@ Higher fares observed during early morning hours (4-6 AM).
 Lowest fares around 7 PM, likely due to competition during peak demand times.
 - `Trip Duration Patterns`:
 Peak demand occurs between 6 PM and 10 PM, aligning with the most frequent pickup hours.
-- Popular Locations:
+- `Popular Locations`:
 Certain GPS coordinates reveal hotspots with high pickup/drop-off frequencies, suggesting areas of increased demand.
-- Fare and Distance Relationship:
+- `Fare and Distance Relationship`:
 A moderate correlation exists between fare amount and trip distance, reflecting standard fare calculation methods.
 A weaker correlation between trip duration and fare highlights variability caused by traffic and route efficiency.
 - Visualizations

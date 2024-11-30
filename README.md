@@ -1,6 +1,6 @@
 # NYC Taxi Data Analysis: Classification and Regression
 
-##Overview
+## Overview
 This project analyzes NYC yellow taxi trip data from January 2015, focusing on classification and regression tasks. The goal is to predict whether a trip results in a high fare (classification) and to accurately estimate the fare amount (regression). The analysis leverages PySpark on Databricks to efficiently process and visualize large datasets, enabling scalable insights.
 
 ## Dataset

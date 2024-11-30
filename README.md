@@ -21,7 +21,7 @@ Objective: Predict whether a trip resulted in a high fare (over $20) based on tr
 **Pipelines**:
 - Decision Tree Classifier (Best Model)
 - Logistic Regression
-Metrics: F1 Score, Precision, Recall
+- Metrics: F1 Score, Precision, Recall
 **Visualizations**:
 - Bar charts comparing F1, Precision, and Recall.
 
@@ -31,7 +31,7 @@ Objective: Predict the fare amount based on trip characteristics.
 **Pipelines**:
 - Linear Regression
 - Random Forest Regressor (Best Model)
-Metrics: RMSE, R² Score
+- Metrics: RMSE, R² Score
 **Visualizations**:
 - Residual plots
 - Predicted vs. Actual plots

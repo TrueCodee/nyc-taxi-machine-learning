@@ -19,22 +19,22 @@ This project analyzes NYC yellow taxi trip data from January 2015, focusing on c
 Objective: Predict whether a trip resulted in a high fare (over $20) based on trip characteristics.
 
 **Pipelines**:
-Decision Tree Classifier (Best Model)
-Logistic Regression
-Metrics: F1 Score, Precision, Recall
+- Decision Tree Classifier (Best Model)
+- Logistic Regression
+- Metrics: F1 Score, Precision, Recall
 **Visualizations**:
-Bar charts comparing F1, Precision, and Recall.
+- Bar charts comparing F1, Precision, and Recall.
 
 **Task 2: Regression**
 Objective: Predict the fare amount based on trip characteristics.
 
 **Pipelines**:
-Linear Regression
-Random Forest Regressor (Best Model)
-Metrics: RMSE, R² Score
+- Linear Regression
+- Random Forest Regressor (Best Model)
+- Metrics: RMSE, R² Score
 **Visualizations**:
-Residual plots
-Predicted vs. Actual plots
+- Residual plots
+- Predicted vs. Actual plots
 
 ## Key Analyses and Insights
 - Trip Duration Analysis:

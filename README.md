@@ -88,53 +88,61 @@ Certain GPS coordinates reveal hotspots with high pickup/drop-off frequencies, s
 - `Fare and Distance Relationship`:
 A moderate correlation exists between fare amount and trip distance, reflecting standard fare calculation methods.
 A weaker correlation between trip duration and fare highlights variability caused by traffic and route efficiency.
-- Visualizations
-Bar Charts:
+
+## Visualizations
+- `Bar Charts`:
 Compare F1 Score, Precision, and Recall for classification pipelines (Decision Tree and Logistic Regression).
-- Residual Plots:
+- `Residual Plots`:
 Highlight model accuracy and consistency for regression pipelines.
-- Predicted vs. Actual Plots:
+- `Predicted vs. Actual Plots`:
 Assess alignment between model predictions and actual fare amounts.
-Model Pipelines
-Classification
-Decision Tree Classifier (Best Model):
+
+## Model Pipelines
+**Classification**
+
+1) Decision Tree Classifier (Best Model):
+
+Performance: 
+- `F1 Score`: 97.68%
+- `Precision`: 98.32%
+- `Recall`: 99.11%
+- `Purpose`: Predict whether a trip results in a high fare (above $20).
+
+2)Logistic Regression:
 
 Performance:
-F1 Score: 97.68%
-Precision: 98.32%
-Recall: 99.11%
-Purpose: Predict whether a trip results in a high fare (above $20).
-Logistic Regression:
+- `F1 Score`: 83.18%
+- `Precision`: 88.56%
+- `Recall`: 100%
+  
+**Regression**
+1) Random Forest Regressor (Best Model):
 
 Performance:
-F1 Score: 83.18%
-Precision: 88.56%
-Recall: 100%
-Regression
-Random Forest Regressor (Best Model):
+- `RMSE`: 3.29
+- `R² Score`: 0.889
+- `Purpose`: Predict fare amounts based on trip characteristics.
+  
+2)Linear Regression:
 
 Performance:
-RMSE: 3.29
-R² Score: 0.889
-Purpose: Predict fare amounts based on trip characteristics.
-Linear Regression:
-
-Performance:
-RMSE: 9.51
-R² Score: 0.071
-Saving and Loading Pipelines
+- `RMSE`: 9.51
+- `R² Score`: 0.071
+  
+## Saving and Loading Pipelines
 Why Save Pipelines?
-Reusability: Avoid retraining models for similar tasks.
-Efficiency: Load pre-trained models for immediate use in production.
-Reproducibility: Ensure consistent performance across environments.
-How to Save a Pipeline
+- `Reusability`: Avoid retraining models for similar tasks.
+- `Efficiency`: Load pre-trained models for immediate use in production.
+- `Reproducibility`: Ensure consistent performance across environments.
+  
+## How to Save a Pipeline
 Example:
 python
 Copy code
 ```
 cvModel.bestModel.write().overwrite().save("dbfs:/FileStore/random_forest_pipeline")
 ```
-How to Load a Pipeline
+## How to Load a Pipeline
 Example:
 python
 Copy code

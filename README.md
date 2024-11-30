@@ -37,15 +37,15 @@ Objective: Predict the fare amount based on trip characteristics.
 - Predicted vs. Actual plots
 
 ## Key Analyses and Insights
-- Trip Duration Analysis:
+- `Trip Duration Analysis`:
 Investigated trends in trip durations by hour and day to identify peak usage times.
-- Fare Amount Analysis:
+- `Fare Amount Analysis`:
 Explored fare variations by pickup location and passenger count.
-- Hotspot Identification:
+- `Hotspot Identification`:
 Mapped the most frequent pickup/drop-off locations, identifying high-demand areas.
-- Hourly Demand Analysis:
+- `Hourly Demand Analysis`:
 Analyzed hourly patterns in taxi demand, highlighting peak hours.
-- Correlation Analysis:
+- `Correlation Analysis`:
 Evaluated relationships between trip duration, trip distance, and fare amount to uncover underlying trends.
 
 ## Project Structure
@@ -78,10 +78,10 @@ Download the dataset from Kaggle and place it in the working directory.
 Run all code cells in sequence to reproduce the analysis.
 
 ## Findings Summary
-- Average Fare by Hour:
+- `Average Fare by Hour`:
 Higher fares observed during early morning hours (4-6 AM).
 Lowest fares around 7 PM, likely due to competition during peak demand times.
-- Trip Duration Patterns:
+- `Trip Duration Patterns`:
 Peak demand occurs between 6 PM and 10 PM, aligning with the most frequent pickup hours.
 - Popular Locations:
 Certain GPS coordinates reveal hotspots with high pickup/drop-off frequencies, suggesting areas of increased demand.

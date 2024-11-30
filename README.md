@@ -108,7 +108,7 @@ Performance:
 - `Recall`: 99.11%
 - `Purpose`: Predict whether a trip results in a high fare (above $20).
 
-2)Logistic Regression:
+2) Logistic Regression:
 
 Performance:
 - `F1 Score`: 83.18%
@@ -123,7 +123,7 @@ Performance:
 - `R² Score`: 0.889
 - `Purpose`: Predict fare amounts based on trip characteristics.
   
-2)Linear Regression:
+2) Linear Regression:
 
 Performance:
 - `RMSE`: 9.51

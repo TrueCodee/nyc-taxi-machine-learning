@@ -49,11 +49,11 @@ Analyzed hourly patterns in taxi demand, highlighting peak hours.
 Evaluated relationships between trip duration, trip distance, and fare amount to uncover underlying trends.
 
 ## Project Structure
-NYC-Taxi-Data-Analysis.ipynb:
+- `NYC-Taxi-Data-Analysis.ipynb`:
 Jupyter Notebook containing the complete analysis, including data processing, feature engineering, and visualizations.
-NYC-Taxi-Data-Analysis-Databricks.pdf:
+- `NYC-Taxi-Data-Analysis-Databricks.pdf`:
 Exported Databricks notebook summarizing the workflow and findings.
-README.md:
+- `README.md`:
 Project overview and instructions.
 
 ## How to Run the Analysis
